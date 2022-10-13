@@ -7,7 +7,7 @@ import morgan from "morgan";
 
 const app = express();
 
-app.set("views", path.join(__dirname, "/../views"));
+app.set("views", path.join(__dirname, "views"));
 app.engine(
   ".hbs",
   create({
